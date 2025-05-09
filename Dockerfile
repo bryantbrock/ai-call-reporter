@@ -12,4 +12,4 @@ COPY . .
 
 # 4. Expose & launch
 EXPOSE 3000
-CMD ["bun", "src/index.js"]
+CMD ["bun", "src/index.ts"]
