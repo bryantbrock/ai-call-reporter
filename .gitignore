@@ -1,0 +1,48 @@
+node_modules
+.DS_store
+
+/build
+/public/build
+/server-build
+.env
+
+/prisma/data.db
+/prisma/data.db-journal
+/tests/prisma
+
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/tests/fixtures/email/
+/coverage
+
+/other/cache.db
+
+# Easy way to create temporary files/folders that won't accidentally be added to git
+*.local.*
+.cache
+
+# Sentry Config File
+.sentryclirc
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# Sentry Config File
+.env.sentry-build-plugin
+.env.prod
+
+sandbox.ts
+
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
+terraform/plans/
+*.tfplan
+private.pem
+
+sandboxe.ts
+.env
